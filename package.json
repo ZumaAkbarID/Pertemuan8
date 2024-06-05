@@ -10,7 +10,12 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write src/"
   },
+  "imports": {
+    "#router/*": "./src/router/*",
+    "#components/*": "./src/components/*"
+  },
   "dependencies": {
+    "@lottiefiles/dotlottie-vue": "^0.3.3",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },

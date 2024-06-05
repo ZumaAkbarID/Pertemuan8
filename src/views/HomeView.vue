@@ -1,10 +1,7 @@
 <script setup>
-// import TheWelcome from '../components/TheWelcome.vue'
-import Article from '../components/Article.vue'
+import Heroku from '../components/partials/Heroku.vue'
 </script>
 
 <template>
-  <main>
-    <Article />
-  </main>
+  <Heroku />
 </template>
